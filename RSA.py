@@ -72,7 +72,6 @@ if __name__=='__main__':
     PHI_de_N=(p-1)*(q-1)
     e= 3
     texto_encriptado = encriptar(texto,e,n)
-    print(
     print(texto_encriptado)
     d = chave_privada(PHI_de_N,e)
     texto_decriptado = decriptar(texto_encriptado,n,d)
